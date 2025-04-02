@@ -22,5 +22,5 @@
   // "postCreateCommand": "ghcup upgrade && cabal update && cabal install hlint stylish-haskell hasktags hasktags hoogle",
   // Comment out to connect as root instead. To add a non-root user, see: https://aka.ms/vscode-remote/containers/non-root.
   //"remoteUser": "vscode",
-  "postCreateCommand": "bash ./setup_env.sh"
+  "postCreateCommand": "bash ./.config/setup_env.sh"
 }
