@@ -45,3 +45,6 @@ for package in "${packages[@]}"; do
   echo "Installing $package..."
   /home/linuxbrew/.linuxbrew/bin/brew install "$package"
 done
+
+tic -x -o ~/.terminfo .config/xterm-kitty.ti
+tic -x -o ~/.terminfo .config/foot.ti
