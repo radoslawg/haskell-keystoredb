@@ -1,6 +1,7 @@
 module Main (main) where
 
-import Lib
+import Gatekeeper.Server
 
 main :: IO ()
-main = someFunc
+main = do
+    runServer
